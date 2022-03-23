@@ -1,39 +1,114 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5;
 }
 
-.displayDestinations {
+.flex {
+  display: flex;
+}
 
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.main-container {
+  height: 100%;
+  background-color: red;
+  width: 50%;
+}
+
+.banner-text-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 4px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.navbar-link-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 100px;
+  align-items: center;
+  background-color: pink;
+}
+
+.navbar-right {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.square-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.displayDestinations {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .destinationCard {
+  width: 200px;
+  border: 1px solid black;
+  margin: 10px;
+}
 
+.destinationCard > img {
+  width: 100%;
+}
+
+.destination-card-text {
+  padding: 10px;
 }
 
 .destinationsTitle {
-
 }
 
 .banner {
-
 }
 
 .navbar {
-
 }
 
 .navbarRight {
-
 }
 
 .navbarIcon {
-
 }
 
 .footer {
-
 }
 
 /* this one is already addeed, it's for the animation */
