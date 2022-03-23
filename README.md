@@ -1,12 +1,3 @@
-# Travel Agency Template 🎨
-
-This is a Travel Agency template to start a project quickly
-
-## Table of contents:
-
-- **[Setup](#setup-how-to-use-this-template)**
-- **[Start the exercise](#start-exercise)**
-
 ## SETUP How to use this template
 
 1. Create a new project based on this template using the `Use this template` button
