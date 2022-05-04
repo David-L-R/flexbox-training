@@ -1,14 +1,14 @@
-.square-container {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .square {
-    width: 100px;
-    height: 100px;
-  }
+import { Square } from "./Square";
+import "./squares.css";
+
+export function Squares() {
+  return (
+    <div className='page'>
+      <div className='square-container'>
+        {Array.from(Array(4).keys()).map((square) => (
+          <Square />
+        ))}
+      </div>
+    </div>
+  );
+}

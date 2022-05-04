@@ -1,5 +1,6 @@
 import "./App.css";
 import { Banner, Destinations, Footer, Navbar } from "./components";
+import { Squares } from "./components/squares/Squares";
 
 function App() {
   return (
