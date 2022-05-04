@@ -1,16 +1,15 @@
 export function Navbar() {
   return (
     <div className='navbar'>
-      <div>
-        <p>Viajar! - Your friendly neighbourhood travel agency</p>
+      <p className='home-button'>✈️</p>
+      <div className='logo'>
+        <h1>Viajar!</h1>
+        <h2>Trips</h2>
       </div>
-      <div>
-        <p>✈️</p>
-        <div className='navbarRight'>
-          <p className='navbarIcon'>🗓</p>
-          <p className='navbarIcon'>♥</p>
-          <p className='navbarIcon'>🧙</p>
-        </div>
+      <div className='icon-container'>
+        <p className='navbar-icon'>🗓</p>
+        <p className='navbar-icon'>♥</p>
+        <p className='navbar-icon'>🧙</p>
       </div>
     </div>
   );

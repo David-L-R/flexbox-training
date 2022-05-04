@@ -1,17 +1,38 @@
 /*
   1. display: flex;
   2. flex-direction
-  3. justify-content
+  3. justify-content: flex-start | space-between | space-around | flex-end
   4. align-items
   5. flex-wrap
 */
 
+/* Specific */
+
 .square-container {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  align-items: center;
+  /* flex-wrap: wrap-reverse; */
 }
 
 .square {
   width: 100px;
   height: 100px;
 }
+
+/* <p className="text">Hello world</p> */
+/* <p className="text" id="hello_world_1">Hello world 1</p> */
+
+/* #hello_world_1 {
+  
+}
+
+.text {
+}
+
+p {
+}*/
