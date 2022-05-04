@@ -1,3 +1,10 @@
+html,
+body,
+#root,
+.App,
+.page {
+  height: 100%;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -5,35 +12,27 @@
 }
 
 .displayDestinations {
-
 }
 
 .destinationCard {
-
 }
 
 .destinationsTitle {
-
 }
 
 .banner {
-
 }
 
 .navbar {
-
 }
 
 .navbarRight {
-
 }
 
 .navbarIcon {
-
 }
 
 .footer {
-
 }
 
 /* this one is already addeed, it's for the animation */
